@@ -18,6 +18,11 @@ const App = ()  => {
       <Contact/>
       <div className="divider my-4"></div>
       <Footer />
+      <div className='to-top'>
+        <span><a href='#top'><i className="material-icons text-white pt-2 pl-2">arrow_upward</i></a></span> 
+      </div>
+
+
       
 
 
