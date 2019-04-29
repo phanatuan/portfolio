@@ -6,7 +6,7 @@ const Portfolio = () => {
       <h2 className='text-center mb-4'>Portfolio</h2>
       <div className='container'>
         <div className='row'>
-          <div className='col-6'>
+          <div className='col-lg-6 col-md-12'>
             <div className='card'>
               <div className='card-header card-header-danger'>
                 <h4 className='card-title'>Google News</h4>
@@ -19,11 +19,12 @@ const Portfolio = () => {
                   <li>Build Filter Suite. Load</li>
                   <li>More Function.</li>
               </ul>
-                <a href="https://google-news.netlify.com/" class="btn btn-primary">Check It Out</a>
+                <a href="https://google-news.netlify.com/" className="btn btn-primary mr-2">Live Demo</a>
+                <a href="https://github.com/phanatuan/google-news" className="btn btn-danger">View on Github</a>
               </div>
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-lg-6 col-md-12'>
             <div className='card'>
               <div className='card-header card-header-danger'>
                 <h4 className='card-title'>Full header coloured</h4>
@@ -36,15 +37,19 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-lg-6 col-md-12'>
             <div className='card'>
               <div className='card-header card-header-danger'>
-                <h4 className='card-title'>Google News</h4>
-                <p className='category'>Built with Vanilla JS</p>
+                <h4 className='card-title'>Build Spotify Homepage</h4>
+                <p className='category'>Built with Pure HTML, CSS, Bootstrap</p>
               </div>
               <div className='card-body'>
-                Fetch latest news article using Fetch. Build Filter Suite. Load
-                More Function.
+                <ul>
+                    <li>Replica of Spotify HomePage</li>
+                    <li>Exact Use of CSS Settings and Get Images from Spotify</li>
+                </ul>
+                <a href="https://google-news.netlify.com/" className="btn btn-primary mr-2">Live Demo</a>
+                <a href="https://github.com/phanatuan/google-news" className="btn btn-danger">View on Github</a>
               </div>
             </div>
           </div>
