@@ -1,8 +1,10 @@
 import React from "react";
 import './Nav.css';
 import { Link } from 'react-router-dom';
+import {withRouter} from 'react-router'
 
-const Nav = () => {
+const Nav = (props) => {
+  const pathname = props.location.pathname
   return (
     <nav className='navbar navbar-expand-lg bg-dark mb-0 rounded-0' id='top'>
       <div className='container'>
@@ -22,7 +24,7 @@ const Nav = () => {
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
-            <li className='nav-item'>
+            {pathname === '/' ? <><li className='nav-item'>
               <a className='nav-link' href='#about'>
                 About
               </a>
@@ -36,7 +38,7 @@ const Nav = () => {
               <a className='nav-link' href='#contact'>
                 Contact
               </a>
-            </li>
+            </li></> : null }
             <li className='nav-item'>
               
                 <Link to='/about' className={'nav-link cv'} >My ONLINE CV</Link>
@@ -50,4 +52,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default withRouter(Nav);

@@ -11,6 +11,7 @@ const CVPage = () => {
               <div className='px-auto'>
                 <img
                   className='img-fluid rounded-circle pr-2'
+                  alt='tuan_avatar'
                   height='200px'
                   src='https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/17155734_10211305975272581_4707884009192249977_n.jpg?_nc_cat=107&_nc_oc=AQnPKMz_DxStj7k_tRul4RNzbzxH7hXYdWF-1doHop0n42C_8BSssyIHM5WyggVitC4&_nc_ht=scontent.fsgn3-1.fna&oh=fcbb4c22be52da9014401d788744eb40&oe=5D6A75E0'
                 />

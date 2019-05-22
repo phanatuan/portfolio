@@ -7,7 +7,6 @@ import "./App.css";
 const MainPage = () => {
   return (
     <div className='container-fluid p-0'>
-      {/* <Nav /> */}
       <Intro />
       <div className='divider my-4 py-4' />
       <Portfolio />
