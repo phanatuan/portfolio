@@ -1,32 +1,24 @@
 import React from 'react';
-import Nav from './Nav';
-import Portfolio from './Portfolio';
-import Footer from './Footer';
-import Intro from './Intro';
-import Contact from './Contact';
+import MainPage from './MainPage';
+import {Switch, Route} from 'react-router-dom';
+import CVPage from './CVPage';
+
 import './App.css';
-
-
+import NoMatch from './NoMatch';
+import Nav from './Nav';
+import Footer from './Footer';
 
 const App = ()  => {
   return (
-    <div className="container-fluid p-0">
-      <Nav />
-      <Intro />
-      <div className="divider my-4 py-4"></div>
-      <Portfolio />
-      <Contact/>
-      <div className="divider my-4"></div>
-      <Footer />
-      <div className='to-top'>
-        <span><a href='#top'><i className="material-icons text-white pt-2 pl-2">arrow_upward</i></a></span> 
-      </div>
-
-
-      
-
-
-    </div>
+    <>
+    <Nav />
+    <Switch>
+      <Route path='/' exact component={MainPage}/>
+      <Route path='/about' exact component={CVPage} />
+      <Route component={NoMatch} />
+    </Switch>
+    <Footer/>
+    </>
   );
 }
 

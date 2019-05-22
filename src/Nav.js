@@ -1,11 +1,12 @@
 import React from "react";
 import './Nav.css';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <nav className='navbar navbar-expand-lg bg-dark mb-0 rounded-0' id='top'>
       <div className='container'>
-        <b><a className='navbar-brand' href='#'>Portfolio</a></b>
+        <b><Link to='/' className={'navbar-brand'}>Portfolio</Link></b>
         <button
           className='navbar-toggler'
           type='button'
@@ -35,6 +36,11 @@ const Nav = () => {
               <a className='nav-link' href='#contact'>
                 Contact
               </a>
+            </li>
+            <li className='nav-item'>
+              
+                <Link to='/about' className={'nav-link'} >My ONLINE CV</Link>
+            
             </li>
           </ul>
           <span className='navbar-text ml-auto'><a href="https://github.com/phanatuan/portfolio">Star Me on Github!</a></span>
