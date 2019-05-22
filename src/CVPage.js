@@ -47,7 +47,7 @@ const CVPage = () => {
 
       <div className='headline'>
         <h4>
-          Full Stack Developer with 3-year experience in Digital Marketing
+          Full Stack Developer
         </h4>
         <ul>
           <li>
