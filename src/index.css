@@ -8,9 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #70e1f5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffd194, #70e1f5); 
-    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(252,207,207,1) 0%, rgba(255,243,228,1) 90% ); */
-    background-image: radial-gradient( circle farthest-corner at 7.5% 14.2%,  rgba(254,243,240,1) 0%, rgba(250,236,252,1) 90% );
+    background: linear-gradient(to right, #ffd194, #70e1f5);  
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(252,207,207,1) 0%, rgba(255,243,228,1) 90% );
+    background-image: radial-gradient( circle farthest-corner at 7.5% 14.2%,  rgba(254,243,240,1) 0%, rgba(250,236,252,1) 90% ); */
 }
 
 code {

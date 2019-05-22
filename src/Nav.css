@@ -1,5 +1,6 @@
 .nav-link  { 
     font-size: 15px !important;
+    color: white;
 }
 
 .navbar-brand  {
@@ -8,4 +9,9 @@
 
 .navbar-text a { 
   color: white ;
+  text-decoration: none;  
+}
+
+.cv { 
+  color: red !important;
 }

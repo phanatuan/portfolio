@@ -39,7 +39,7 @@ const Nav = () => {
             </li>
             <li className='nav-item'>
               
-                <Link to='/about' className={'nav-link'} >My ONLINE CV</Link>
+                <Link to='/about' className={'nav-link cv'} >My ONLINE CV</Link>
             
             </li>
           </ul>

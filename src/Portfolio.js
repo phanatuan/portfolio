@@ -4,7 +4,7 @@ import './Portfolio.css';
 const Portfolio = () => {
   return (
     <div className='container-fluid'>
-      <h1 id='portfolio' className='text-center mb-4 title'>Portfolio</h1>
+      <h1 id='portfolio' className='text-center pt-0 title'>Portfolio</h1>
       <div className='container mt-4 pt-5'>
         <div className='row'>
           <div className='col-lg-6 col-md-12'>
